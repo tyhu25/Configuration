@@ -60,3 +60,20 @@ set fileencodings=utf-8,gbk
 :autocmd FileType python :set number 
 :autocmd FileType python :set foldmethod=syntax 
 :autocmd FileType python :set smartindent
+
+nnoremap <D-F1> 1gt
+nnoremap <D-F2> 2gt
+nnoremap <D-F3> 3gt
+nnoremap <D-F4> 4gt
+nnoremap <D-F5> 5gt
+nnoremap <D-F6> 6gt
+nnoremap <D-F7> 7gt
+nnoremap <D-F8> 8gt
+nnoremap <D-F9> 9gt
+nnoremap <D-F0> 10gt
+
+let i = 1
+while i <= 9
+    execute 'nnoremap <Leader>' . i . ' :' . i . 'wincmd w<CR>'
+    let i = i + 1
+endwhile
