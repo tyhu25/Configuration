@@ -5,14 +5,14 @@
 
 ## Apache + PHP Configuration
 1. Run Apache  
-   ```python
-   apachectl start  
+   ```
+   apachectl start. 
    ``` 
 2. Enable PHP for Apache  
    Make backup for configuration file    
-   ```python
-   cd /etc/apache2/ 
-   cp httpd.conf httpd.conf.bak  
+   ```
+   cd /etc/apache2/.
+   cp httpd.conf httpd.conf.bak. 
    ```  
    Edit Apache configuration   
    ```shell
