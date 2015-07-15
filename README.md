@@ -7,7 +7,7 @@
 1. Run Apache  
 ```
 apachectl start. 
-``` 
+   ``` 
 2. Enable PHP for Apache  
    Make backup for configuration file    
 ```
