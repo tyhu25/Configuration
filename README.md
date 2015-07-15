@@ -7,8 +7,8 @@
 1. Run Apache  
 ```
 apachectl start  
-```
-2. Enable PHP for Apache 
+``` 
+2. Enable PHP for Apache
 Make backup for configuration file    
 ```
 cd /etc/apache2/   
@@ -26,7 +26,7 @@ Restart Apache
 ```
 apachectl restart  
 ``` 
-3. More configuration settings 
+3. More configuration settings   
 Change configuration to support more index files (In DirectoryIndex Section)   
 ```
 DirectoryIndex index.php index.html  
