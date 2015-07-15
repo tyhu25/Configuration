@@ -4,11 +4,11 @@
 2. Install other plugins with Vundlei
 
 ## Apache + PHP Configuration
-*  Run Apache  
+####  Run Apache  
 ```
 apachectl start. 
 ``` 
-* Enable PHP for Apache  
+#### Enable PHP for Apache  
    Make backup for configuration file    
 ```
 cd /etc/apache2/.
@@ -26,7 +26,7 @@ LoadModule php5_module libexec/apache2/libphp5.so
 ```
 apachectl restart  
 ``` 
-* More configuration settings   
+#### More configuration settings   
    Change configuration to support more index files (In DirectoryIndex Section)   
 ```
 DirectoryIndex index.php index.html  
