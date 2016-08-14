@@ -34,6 +34,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 autocmd VimEnter * NERDTree
+set splitright
+set splitbelow
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
